@@ -1,0 +1,63 @@
+body {
+	background-image: url("images/wallpaper.jpg");
+}
+
+.window-outer {
+	backdrop-filter: blur(3px) brightness(150%) saturate(0.5);
+	background: linear-gradient(-1deg,rgba(255, 255, 255, 0) 46%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 80%);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	width: 50%;
+	margin: auto;
+	box-shadow: 1px 1px rgba(255, 255, 255, 0.3) inset;
+}
+
+.window-bar {
+	padding: 5px 1px 0px 7px;
+	display: inline-flex;
+	align-items: center;
+}
+
+.window-title {
+	padding: 0px 0px 0px 5px;
+	font-family: Segoe Ui, sans-serif;
+	font-size: 15px;
+	margin: 0px;
+	text-shadow: 0 0 10px #ffffff,  0 0 10px #ffffff,  0 0 10px #ffffff;
+}
+
+.window-inner {
+	background-color: #ffffff;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 1px 1px rgba(255, 255, 255, 0.3);
+	margin: 0px 6px 6px 6px;
+	padding: 0px;
+	font-size: 18px;
+}
+
+.notepad-bar {
+	background: linear-gradient(0deg,rgba(205, 212, 223, 1) 0%, rgba(222, 231, 247, 1) 35%, rgba(212, 219, 235, 1) 62%, rgba(254, 255, 255, 1) 100%);
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	border-bottom: 1px solid #a2a9b1;
+	display: inline-block;
+}
+
+.notepad-bar-text {
+	margin: 0px;
+	font-size: 15px;
+	padding: 0px 0px 0px 6px;
+	font-family: Segoe Ui, sans-serif;
+	word-spacing: 10px;
+}
+
+.notepad-text {
+	margin: 0px;
+	padding: 4px;
+	font-size: 18px;
+	font-family: Courier New, serif;
+	letter-spacing: -0.5px;
+}
