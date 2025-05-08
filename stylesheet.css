@@ -1,5 +1,9 @@
 body {
-	background-image: url("images/wallpaper.jpg");
+	background-image: radial-gradient(circle at bottom right,rgba(137, 226, 247, 1) 0%, rgba(18, 139, 232, 1) 36%, rgba(4, 58, 122, 1) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100vh;
 }
 
 .window-outer {
@@ -15,14 +19,34 @@ body {
 
 .window-bar {
 	padding: 5px 1px 0px 7px;
-	display: inline-flex;
+	display: flex;
 	align-items: center;
+}
+
+.exit-button {
+	background: linear-gradient(0deg,rgba(199, 70, 50, 1) 45%, rgba(212, 149, 133, 1) 100%);
+	padding: 0px 15px 0px 15px;
+	margin: -10px 10px 0 auto;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 0px 0px 3px 3px;
+	box-shadow: 1px 1px rgba(255, 255, 255, 0.7) inset;
+}
+
+.exit-button-text {
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+	font-family: Segoe Ui, sans-serif;
+	font-size: 0.9em;
+	font-weight: 900;
+	color: #ffffff;
+	text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000;
 }
 
 .window-title {
 	padding: 0px 0px 0px 5px;
 	font-family: Segoe Ui, sans-serif;
-	font-size: 15px;
+	font-size: 0.9em;
 	margin: 0px;
 	text-shadow: 0 0 10px #ffffff,  0 0 10px #ffffff,  0 0 10px #ffffff;
 }
@@ -48,7 +72,7 @@ body {
 
 .notepad-bar-text {
 	margin: 0px;
-	font-size: 15px;
+	font-size: 0.8em;
 	padding: 0px 0px 0px 6px;
 	font-family: Segoe Ui, sans-serif;
 	word-spacing: 10px;
@@ -57,7 +81,7 @@ body {
 .notepad-text {
 	margin: 0px;
 	padding: 4px;
-	font-size: 18px;
+	font-size: 1em;
 	font-family: Courier New, serif;
 	letter-spacing: -0.5px;
 }
