@@ -3,7 +3,6 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
-	width: 100vh;
 }
 
 .window-outer {
@@ -12,8 +11,8 @@ body {
 	border-style: solid;
 	border-width: 1px;
 	border-radius: 5px;
-	width: 50%;
-	margin: auto;
+	margin: 10px auto;
+	width: 66%;
 	box-shadow: 1px 1px rgba(255, 255, 255, 0.3) inset;
 }
 
@@ -44,7 +43,7 @@ body {
 }
 
 .window-title {
-	padding: 0px 0px 0px 5px;
+	padding: 0px 0px 0px 3px;
 	font-family: Segoe Ui, sans-serif;
 	font-size: 0.9em;
 	margin: 0px;
@@ -57,11 +56,11 @@ body {
 	border-width: 1px;
 	box-shadow: 1px 1px rgba(255, 255, 255, 0.3);
 	margin: 0px 6px 6px 6px;
-	padding: 0px;
+	padding: 0px 0px 0px 0px;
 	font-size: 18px;
 }
 
-.notepad-bar {
+.action-bar {
 	background: linear-gradient(0deg,rgba(205, 212, 223, 1) 0%, rgba(222, 231, 247, 1) 35%, rgba(212, 219, 235, 1) 62%, rgba(254, 255, 255, 1) 100%);
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
@@ -70,7 +69,7 @@ body {
 	display: inline-block;
 }
 
-.notepad-bar-text {
+.action-bar-text {
 	margin: 0px;
 	font-size: 0.8em;
 	padding: 0px 0px 0px 6px;
